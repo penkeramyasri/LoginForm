@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68ad7aa565.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <img src="images/bg2.jpg" alt="" class="greenpage">
+    <div class="container">
+        <div class="img">
+            <img src="images/bg.svg" alt="" class="back">
+        </div>
+        <div class="login-content">
+            <form action="index.html" id="login-form">
+                <img src="images/avatar.svg" alt="" class="avatar">
+                <h2 class="title">Welcome</h2>
+                
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input" id="username" required>
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input" id="password" required>
+                    </div>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <input type="submit" class="btn" value="Login">
+
+                <p>Don't have an account? <a href="registerform.html" class="lastsign" target=”_blank”  >Sign Up.</a></p>
+                <div class="message-container">
+                    <p id="error-message"></p>
+                  </div>
+            </form>      
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
